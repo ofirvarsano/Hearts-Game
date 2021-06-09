@@ -15,8 +15,8 @@ ui.o: ui.c ui.h
 deck.o: deck.c deck.h
 	$(CC) $(CFLAGS) -c deck.c
 
-vector.o: ../vector/vector.c ../vector/vector.h
-	$(CC) $(CFLAGS) -c ../vector/vector.c
+vector.o: vector.c vector.h
+	$(CC) $(CFLAGS) -c vector.c
 
 game.o: game.c game.h
 	$(CC) $(CFLAGS) -c game.c
